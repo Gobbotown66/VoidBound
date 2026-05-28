@@ -329,14 +329,14 @@ Titan Large = Max 100%</description>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f504-7c02-9079-ce8a">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="1"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="5"/>
       </costs>
       <profiles>
         <profile name="Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="a034-71b2-e60d-e11d">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Pistol</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
@@ -346,7 +346,7 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Pistol" hidden="false" id="70a0-2f8b-53a6-c4d8">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="9"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
       </costs>
       <profiles>
         <profile name="Heavy Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8db5-96a7-3ff8-18a7">
@@ -366,21 +366,21 @@ Titan Large = Max 100%</description>
         <profile name="AT grenades" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="85fa-18f9-0388-9211">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">AT grenade</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">d3</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="27"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="21"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Grenades" hidden="false" id="83e2-fa03-b24a-2991">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="3"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="23"/>
       </costs>
       <profiles>
         <profile name="Grenades" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="bc47-e842-2e4d-624e">
@@ -409,12 +409,12 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="2"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy combat rifle" hidden="false" id="b6a4-fe6d-e332-ca83">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="10"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="13"/>
       </costs>
       <profiles>
         <profile name="Heavy combat rifle" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="05ba-cb56-a68c-3e00">
@@ -434,22 +434,21 @@ Titan Large = Max 100%</description>
         <profile name="Sniper Rifle" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="ec8c-327c-9a18-c4ce">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Sniper Rifle</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">6</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">36</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">36&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Heavy, Optics, Precision, Pinning</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Heavy, Precision, Pinning</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="15"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="16"/>
       </costs>
       <infoLinks>
         <infoLink name="Heavy" id="0d8a-d51d-9af1-c0b9" hidden="false" type="rule" targetId="6424-c925-0d8b-9c95"/>
         <infoLink name="Precision" id="ee51-1cad-63e9-5da1" hidden="false" type="rule" targetId="7b88-26da-6c43-50df"/>
         <infoLink name="Pinning" id="50ee-ceeb-90c5-8d7e" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
-        <infoLink name="Optics" id="5ec9-ae1b-a9e1-c1d4" hidden="false" type="rule" targetId="95bf-8565-06ec-6bac"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="2399-d330-4f74-6730">
@@ -474,16 +473,16 @@ Titan Large = Max 100%</description>
         <profile name="Light tank gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="303b-c55d-00e4-6a26">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">LTG</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="26"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="54"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy machine gun" hidden="false" id="0cb5-0b8c-961b-1b50" collective="true">
@@ -492,7 +491,7 @@ Titan Large = Max 100%</description>
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">HMG</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">5</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Pinning</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
@@ -503,7 +502,7 @@ Titan Large = Max 100%</description>
         <infoLink name="Pinning" id="9dfe-9df8-c9d1-9191" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="50"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="81"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium machine gun" hidden="false" id="500a-8683-3f5d-735c" collective="true">
@@ -512,9 +511,9 @@ Titan Large = Max 100%</description>
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">MMG</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">4</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Pinning</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -523,7 +522,7 @@ Titan Large = Max 100%</description>
         <infoLink name="Pinning" id="5f11-e075-e4e0-5ce6" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="36"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light machine gun" hidden="false" id="a31d-cfdc-bd7b-174b" collective="true">
@@ -532,7 +531,7 @@ Titan Large = Max 100%</description>
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">LMG</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">3</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
@@ -540,7 +539,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="6"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="26"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Flamethrower" hidden="false" id="3800-e128-fe6e-ffa8" collective="true">
@@ -557,46 +556,12 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="6"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="SR Medium tank gun" hidden="false" id="7960-c1d1-0ced-0a80">
-      <profiles>
-        <profile name="MATSR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="c6e0-caad-f934-b9cc">
-          <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">MATSR</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">AT</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
-            <characteristic typeId="ae2a-e4bd-c064-fbc8" name="Facing"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="22"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Standard Combat Weapon" hidden="false" id="507b-74ac-e341-fde0" collective="true">
-      <profiles>
-        <profile name="Combat Weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="b63a-f1a3-b2e1-74e2">
-          <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Combat Weapon</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">SA</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1+1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">CC</characteristic>
-            <characteristic typeId="ae2a-e4bd-c064-fbc8" name="Facing"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="2"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Combat weapon" hidden="false" id="46d1-165b-f4cd-91f6">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="1"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="5"/>
       </costs>
       <profiles>
         <profile name="Combat weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="5896-28f2-ce6a-53f1">
@@ -611,21 +576,21 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="HE Missile Launcher" hidden="false" id="9ba6-039d-5205-15b3">
+    <selectionEntry type="upgrade" import="true" name="HE Missile Bays" hidden="false" id="9ba6-039d-5205-15b3">
       <profiles>
-        <profile name="HE missile launcher" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="cd86-bb0f-c957-5d86">
+        <profile name="HE missile bays" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="cd86-bb0f-c957-5d86">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">HE missile launcher</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2d6</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Artillery</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="60"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="152"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="+++TITANICS+++" hidden="false" id="c0a7-6762-40d7-accb"/>
@@ -1117,14 +1082,14 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Junk gun" hidden="false" id="2897-e431-4921-e751">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="1"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="0"/>
       </costs>
       <profiles>
         <profile name="Junk gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="b9c6-379d-c982-3cfd">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Junk gun</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d4</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
@@ -1207,7 +1172,7 @@ Titan Large = Max 100%</description>
     <selectionEntry type="upgrade" import="true" name="Hover" hidden="false" id="be78-4362-8199-04a5">
       <rules>
         <rule name="Hover" id="8e19-a391-c52e-6db6" hidden="false">
-          <description>Hover models can stop moving in the air not moving more than 12&quot;. They are not -4 to hit while in hover mode. Hovering transports can unload while hovering.</description>
+          <description>Hover models can stop flyers moving in the air not moving more than 16&quot;. They are not -4 to hit while in hover mode. Hovering transports can unload while hovering.</description>
         </rule>
       </rules>
       <costs>
@@ -1352,14 +1317,14 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power claw" hidden="false" id="37f1-22fd-fc1b-528e">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="57"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="104"/>
       </costs>
       <profiles>
         <profile name="Power claw" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="f15c-3578-9528-4e49">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">PC</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">3</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">*only vehicles</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
@@ -1393,7 +1358,7 @@ Titan Large = Max 100%</description>
       </costs>
       <rules>
         <rule name="Unit Berserk" id="9b56-3a0e-dc27-1d1c" hidden="false">
-          <description>These units must roll a d6 when entering combat. 1=Takes d6 hits, 2-5=Gain +1 Fight rolls, 6=Gain extra Duel dice and +1 Fight rolls.</description>
+          <description>Any models that die get a parting attack. Any top number rolled gets another attack roll!</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -1409,7 +1374,7 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy combat weapon" hidden="false" id="db40-a303-01f5-67e6">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="9"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
       </costs>
       <profiles>
         <profile name="Heavy combat weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="31ac-99e3-f1db-5039">
@@ -1438,7 +1403,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="8"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="68"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AT Missile Launcher" hidden="false" id="71a0-cb3f-2f98-0806">
@@ -1446,33 +1411,33 @@ Titan Large = Max 100%</description>
         <profile name="AT missile launcher" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0f8a-c7e8-cf61-86ba">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">AT missile launcher</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="46"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="76"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium tank gun SR" hidden="false" id="08e0-db4f-ebca-0ad7" collective="true">
       <profiles>
-        <profile name="Medium tank gun SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4baf-6092-76ad-f22a">
+        <profile name="MTG-SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4baf-6092-76ad-f22a">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">MTG-SR</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="40"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="70"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy tank gun" hidden="false" id="8d73-a10d-c989-fd19" collective="true">
@@ -1480,16 +1445,16 @@ Titan Large = Max 100%</description>
         <profile name="Heavy tank gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="374e-ba75-7f55-bd2e">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">HTG</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="72"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="104"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium tank gun" hidden="false" id="c14c-eae7-ac2f-8e46" collective="true">
@@ -1497,21 +1462,21 @@ Titan Large = Max 100%</description>
         <profile name="Medium tank gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="52db-5984-df86-a357">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">MTG</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="46"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="76"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="SAW" hidden="false" id="5d57-ad49-0468-6dee">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="4"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="16"/>
       </costs>
       <profiles>
         <profile name="SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8963-d1e1-475a-bfee">
@@ -1528,7 +1493,7 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy SAW" hidden="false" id="40a8-72c9-aa00-e42a">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="20"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
       </costs>
       <profiles>
         <profile name="Heavy SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1456-c828-838f-d85f">
@@ -1542,6 +1507,57 @@ Titan Large = Max 100%</description>
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light tank gun SR" hidden="false" id="3457-ecfd-2260-f740" collective="true">
+      <profiles>
+        <profile name="LTG-SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="100b-de61-bd6f-b15b">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">LTG-SR</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="48"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy tank gun SR" hidden="false" id="d3f0-fba6-3ea2-0448" collective="true">
+      <profiles>
+        <profile name="HTG-SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1c10-e1e3-0270-c421">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">HTG-SR</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="98"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melter Pack" hidden="false" id="16a7-01ae-9f63-b317" collective="true">
+      <profiles>
+        <profile name="Melter Pack" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="a058-57c9-a452-cdff">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Melter Pack</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0&quot;</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="19"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <publications>
@@ -1697,7 +1713,7 @@ Titan Large = Max 100%</description>
       <description>Models with this rule get a 9+ save from SA Ranged attacks before the armor save.</description>
     </rule>
     <rule name="Scrambler" id="7e22-f70c-2cc4-75f3" hidden="false">
-      <description>No unit may deploy in the scouting phase or using drop within 12&quot; of this unit.</description>
+      <description>No unit may deploy or use drop within 12&quot; of this unit at any time.</description>
     </rule>
     <rule name="Shock" id="96d6-d060-2bac-e6d7" hidden="false">
       <description>Units get rerolls of &apos;1&apos; during combat.</description>
@@ -1706,7 +1722,7 @@ Titan Large = Max 100%</description>
       <description>Smoke Cannisters block line of sight to and through the unit during deployment until they are activated first turn.</description>
     </rule>
     <rule name="Stealth" id="e547-a24b-b6c7-e595" hidden="false">
-      <description>This unit cannot be targeted more than 18&quot; away.</description>
+      <description>Always considered in cover. Cannot be seen more than 18&quot; away.</description>
     </rule>
     <rule name="Stubborn" id="c730-c388-106c-711c" hidden="false">
       <description>Models take 2 pin markers each instead of 1.</description>
