@@ -1374,13 +1374,13 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy combat weapon" hidden="false" id="db40-a303-01f5-67e6">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="21"/>
       </costs>
       <profiles>
         <profile name="Heavy combat weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="31ac-99e3-f1db-5039">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy combat weapon</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
@@ -1411,7 +1411,7 @@ Titan Large = Max 100%</description>
         <profile name="AT missile launcher" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0f8a-c7e8-cf61-86ba">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">AT missile launcher</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
@@ -1420,7 +1420,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="76"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="54"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium tank gun SR" hidden="false" id="08e0-db4f-ebca-0ad7" collective="true">
@@ -1557,6 +1557,57 @@ Titan Large = Max 100%</description>
       </profiles>
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="19"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Medium combat weapon" hidden="false" id="4467-a3ba-05a2-4b7c">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
+      </costs>
+      <profiles>
+        <profile name="Medium combat weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="d555-561a-fb81-0210">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium combat weapon</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light combat weapon" hidden="false" id="c3b9-d0e5-14d3-d94b">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="Light  combat weapon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1aae-d9fe-e2ca-9f1b">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Light combat weapon</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AT Laser Cannon" hidden="false" id="d0a8-cdd7-2adc-8b94">
+      <profiles>
+        <profile name="AT Laser Cannon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="9375-cacb-6d32-ff40">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Laser Cannon</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">36</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="74"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
