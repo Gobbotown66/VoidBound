@@ -344,14 +344,14 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Heavy Pistol" hidden="false" id="70a0-2f8b-53a6-c4d8">
+    <selectionEntry type="upgrade" import="true" name="Medium Pistol" hidden="false" id="70a0-2f8b-53a6-c4d8">
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
       </costs>
       <profiles>
-        <profile name="Heavy Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8db5-96a7-3ff8-18a7">
+        <profile name="Medium Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8db5-96a7-3ff8-18a7">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy Pistol</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium Pistol</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
@@ -414,13 +414,13 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy combat rifle" hidden="false" id="b6a4-fe6d-e332-ca83">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="13"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="22"/>
       </costs>
       <profiles>
         <profile name="Heavy combat rifle" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="05ba-cb56-a68c-3e00">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy combat rifle</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
@@ -1609,6 +1609,65 @@ Titan Large = Max 100%</description>
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="74"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Medium combat rifle" hidden="false" id="e1cf-f242-2015-d0e7">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="13"/>
+      </costs>
+      <profiles>
+        <profile name="Medium combat rifle" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="16c1-e6ac-bae5-fd25">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium combat rifle</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Pistol" hidden="false" id="efc5-6f06-774e-f837">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="21"/>
+      </costs>
+      <profiles>
+        <profile name="Heavy Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="d35a-93a0-810d-edf6">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy Pistol</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light Pistol" hidden="false" id="0db6-de66-6830-8935">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="5"/>
+      </costs>
+      <profiles>
+        <profile name="Light Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="835e-b81f-ad3f-f283">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Light Pistol</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Unit Regenerate" hidden="false" id="2d17-698b-ed85-cb31">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Medic" id="2878-cd57-67b5-5a66" hidden="false" type="rule" targetId="b9c1-c7c6-7a44-bc1f"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <publications>
