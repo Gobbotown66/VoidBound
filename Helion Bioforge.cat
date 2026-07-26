@@ -48,7 +48,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Heavy Tank Gun" hidden="false" id="7636-e367-f575-6dab" type="selectionEntry" targetId="8d73-a10d-c989-fd19" sortIndex="1">
+            <entryLink import="true" name="AP Heavy Tank Shells" hidden="false" id="7636-e367-f575-6dab" type="selectionEntry" targetId="8d73-a10d-c989-fd19" sortIndex="1">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4187-d4fd-fa63-cc1b" includeChildSelections="false"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cb19-baa6-93d2-752c" includeChildSelections="false"/>
@@ -60,7 +60,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f70-8a59-efa0-3f9d" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Light Tank Gun" hidden="false" id="27d7-c1f9-1abe-b1e0" type="selectionEntry" targetId="afff-4bb2-d148-8c23" sortIndex="3">
+            <entryLink import="true" name="AP Light Tank Shells" hidden="false" id="27d7-c1f9-1abe-b1e0" type="selectionEntry" targetId="afff-4bb2-d148-8c23" sortIndex="3">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9897-81e4-5658-9db5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52f9-e120-fadd-a35a" includeChildSelections="false"/>
@@ -1233,13 +1233,13 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f360-4e97-e613-a4be" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Medium Tank Gun" hidden="false" id="10f6-39c7-411e-5809" type="selectionEntry" targetId="c14c-eae7-ac2f-8e46">
+            <entryLink import="true" name="AP Medium Tank Shells" hidden="false" id="10f6-39c7-411e-5809" type="selectionEntry" targetId="c14c-eae7-ac2f-8e46">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2b-f7b3-2533-db4d" includeChildSelections="false"/>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a51b-fbfb-b82a-b132" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Medium Tank Gun SR" hidden="false" id="430a-c1ec-ae6a-5a22" type="selectionEntry" targetId="08e0-db4f-ebca-0ad7">
+            <entryLink import="true" name="AP-SR Medium Tank Shells" hidden="false" id="430a-c1ec-ae6a-5a22" type="selectionEntry" targetId="08e0-db4f-ebca-0ad7">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc5f-7fc1-be45-ffc5" includeChildSelections="false"/>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="494c-304f-08a4-03ee" includeChildSelections="false"/>
@@ -1557,7 +1557,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="4960-a198-a1ae-4d74" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Heavy Tank Gun SR" hidden="false" id="75c5-acb2-0e50-9d8c" type="selectionEntry" targetId="d3f0-fba6-3ea2-0448">
+            <entryLink import="true" name="AP-SR Heavy Tank Shells" hidden="false" id="75c5-acb2-0e50-9d8c" type="selectionEntry" targetId="d3f0-fba6-3ea2-0448">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c599-00ec-4d82-fbb9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af3d-46a6-cccc-96d0"/>
@@ -1633,13 +1633,13 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Weapons" id="6eff-258e-a7f7-8483" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Medium Tank Gun" hidden="false" id="2d26-61d5-0683-61e5" type="selectionEntry" targetId="c14c-eae7-ac2f-8e46">
+            <entryLink import="true" name="AP Medium Tank Shells" hidden="false" id="2d26-61d5-0683-61e5" type="selectionEntry" targetId="c14c-eae7-ac2f-8e46">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff04-1db1-af35-34c3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57ba-36f5-7da5-d0b0"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Light Tank Gun" hidden="false" id="8432-4940-3e2d-7f3f" type="selectionEntry" targetId="afff-4bb2-d148-8c23">
+            <entryLink import="true" name="AP Light Tank Shells" hidden="false" id="8432-4940-3e2d-7f3f" type="selectionEntry" targetId="afff-4bb2-d148-8c23">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="25da-2f23-f905-9b1b" includeChildSelections="false"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f65c-a00c-d8f6-7df5" includeChildSelections="false"/>
@@ -1682,7 +1682,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="1595-ea77-6bfb-d803" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Heavy Tank Gun" hidden="false" id="9a16-1439-8332-18f2" type="selectionEntry" targetId="8d73-a10d-c989-fd19">
+            <entryLink import="true" name="AP Heavy Tank Shells" hidden="false" id="9a16-1439-8332-18f2" type="selectionEntry" targetId="8d73-a10d-c989-fd19">
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ca4a-d1b1-95ae-44b4" includeChildSelections="false"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ba39-2753-2d2a-29c2" includeChildSelections="false"/>
@@ -1700,7 +1700,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c21e-aa36-4a81-1e4a" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Medium Tank Gun SR" hidden="false" id="c80c-4640-d59d-4f01" type="selectionEntry" targetId="08e0-db4f-ebca-0ad7">
+            <entryLink import="true" name="AP-SR Medium Tank Shells" hidden="false" id="c80c-4640-d59d-4f01" type="selectionEntry" targetId="08e0-db4f-ebca-0ad7">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b5fb-c57e-1823-3cdf" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1091-e19a-dce3-bd97" includeChildSelections="false"/>
@@ -1737,6 +1737,146 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mover APC " hidden="false" id="815d-136b-f226-cd4e">
+      <categoryLinks>
+        <categoryLink name="Transport" hidden="false" id="7aa8-08da-91d4-e163" targetId="18e0-e2bd-b84d-3cbd" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bus APC" hidden="false" id="d0eb-31ec-255c-ae02" sortIndex="1">
+          <categoryLinks>
+            <categoryLink name="Transport" hidden="false" id="aef5-8a01-3d4b-ddec" targetId="18e0-e2bd-b84d-3cbd" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64b3-c123-8738-4615" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c38b-9010-3762-28c7" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Bus APC" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="ce84-a153-9e56-b03c">
+              <characteristics>
+                <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">12&quot;</characteristic>
+                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
+                <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d6</characteristic>
+                <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">10</characteristic>
+                <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">2</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="2ffa-8172-fa57-100d" value="67"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="a821-2dc5-b4d5-0a50" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Light Machine Gun" hidden="false" id="2264-b5a2-f380-6c6c" type="selectionEntry" targetId="a31d-cfdc-bd7b-174b">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0b1f-f561-66d2-c6cf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b228-7956-2ef2-3212" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Smoke Launchers" hidden="false" id="391c-2db9-dabb-9353">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2427-5507-fbca-4dd5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c589-abcb-622c-6bfc"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Smoke Cannisters" id="d712-78e6-bc4d-0d57" hidden="false" type="rule" targetId="edd1-1d36-8d0b-8acf"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="2ffa-8172-fa57-100d" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Abilities" id="4dfa-ebcc-fc5b-d051" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Transport 10" hidden="false" id="cbde-ff27-6ec8-1ee4" type="selectionEntry" targetId="8d87-c877-3956-91d7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0650-66c8-0418-ead6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cf9-87f8-ffe5-cbb2" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Drop pod GAPC " hidden="false" id="1499-a1b1-81ef-ce46">
+      <categoryLinks>
+        <categoryLink name="Transport" hidden="false" id="b265-6258-eaf5-01ef" targetId="18e0-e2bd-b84d-3cbd" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="APC Drop Coffin" hidden="false" id="f1b3-346a-8781-93cc" sortIndex="1">
+          <categoryLinks>
+            <categoryLink name="Transport" hidden="false" id="be7f-9a1b-fd5d-8972" targetId="18e0-e2bd-b84d-3cbd" primary="true"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a666-8b5b-aa88-28c5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e0d-e0c8-4563-0fd7" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="APC Drop Coffin " typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="9b8e-5432-6d10-3aef">
+              <characteristics>
+                <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">0&quot;</characteristic>
+                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
+                <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">4</characteristic>
+                <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">9</characteristic>
+                <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">1</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="2ffa-8172-fa57-100d" value="63"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="7efa-dea4-fda1-e595" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Light Machine Gun" hidden="false" id="2ea0-0080-8cd6-6bfb" type="selectionEntry" targetId="a31d-cfdc-bd7b-174b">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f7cf-1f6a-5477-c3e4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c8-4bbd-4c18-9ccd" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Missile Launcher" hidden="false" id="3ea3-eaa9-7d94-d706" type="selectionEntry" targetId="71a0-cb3f-2f98-0806">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c7b8-f468-964d-dd2f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b54-83c8-8ada-2231" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Smoke Launchers" hidden="false" id="ec41-5944-a73c-2249">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b0ae-835a-ec9e-3ddb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b828-cde0-ab01-d596"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Smoke Cannisters" id="75fc-6b8a-2e87-60b8" hidden="false" type="rule" targetId="edd1-1d36-8d0b-8acf"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="2ffa-8172-fa57-100d" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Abilities" id="6baa-a3ef-dad0-f0b1" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Transport 10" hidden="false" id="89af-f777-9772-0966" type="selectionEntry" targetId="8d87-c877-3956-91d7">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d3b-0e71-951c-c634" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db33-4be4-5a71-191f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>

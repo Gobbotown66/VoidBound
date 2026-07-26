@@ -2210,7 +2210,7 @@
                 <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d6</characteristic>
                 <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">10</characteristic>
                 <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">1</characteristic>
-                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">7</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">2</characteristic>
               </characteristics>
             </profile>
           </profiles>

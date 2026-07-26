@@ -426,7 +426,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="8"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="17"/>
       </costs>
       <infoLinks>
         <infoLink name="Heavy" id="0d8a-d51d-9af1-c0b9" hidden="false" type="rule" targetId="6424-c925-0d8b-9c95"/>
@@ -451,21 +451,21 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Light Tank Gun" hidden="false" id="afff-4bb2-d148-8c23" collective="true">
+    <selectionEntry type="upgrade" import="true" name="AP Light Tank Shells" hidden="false" id="afff-4bb2-d148-8c23" collective="true">
       <profiles>
-        <profile name="Light Tank Gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="303b-c55d-00e4-6a26">
+        <profile name="AP Light Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="303b-c55d-00e4-6a26">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">LTG</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AP Light Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT, AP reroll/ 1 fail</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Machine Gun" hidden="false" id="0cb5-0b8c-961b-1b50" collective="true">
@@ -473,7 +473,7 @@ Titan Large = Max 100%</description>
         <profile name="Heavy Machine Gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="20aa-a589-7baf-a50c">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy Machine Gun</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">5</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Pinning</characteristic>
@@ -485,7 +485,7 @@ Titan Large = Max 100%</description>
         <infoLink name="Pinning" id="9dfe-9df8-c9d1-9191" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="65"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium Machine Gun" hidden="false" id="500a-8683-3f5d-735c" collective="true">
@@ -493,9 +493,9 @@ Titan Large = Max 100%</description>
         <profile name="Medium Machine Gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="41f8-4970-26a1-8e92">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium Machine Gun</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">4</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">6</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">Pinning</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
@@ -505,7 +505,7 @@ Titan Large = Max 100%</description>
         <infoLink name="Pinning" id="5f11-e075-e4e0-5ce6" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="36"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="41"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light Machine Gun" hidden="false" id="a31d-cfdc-bd7b-174b" collective="true">
@@ -515,14 +515,14 @@ Titan Large = Max 100%</description>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Light Machine Gun</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">3</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">6</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="6"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light Flamethrower" hidden="false" id="3800-e128-fe6e-ffa8" collective="true">
@@ -539,7 +539,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light Combat Weapon" hidden="false" id="46d1-165b-f4cd-91f6">
@@ -1396,58 +1396,61 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="29"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Heavy" id="1e9d-6ff6-3edd-f14f" hidden="false" type="rule" targetId="6424-c925-0d8b-9c95"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Medium Tank Gun SR" hidden="false" id="08e0-db4f-ebca-0ad7" collective="true">
+    <selectionEntry type="upgrade" import="true" name="AP-SR Medium Tank Shells" hidden="false" id="08e0-db4f-ebca-0ad7" collective="true">
       <profiles>
-        <profile name="Medium Tank Gun SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4baf-6092-76ad-f22a">
+        <profile name="AP-SR Medium Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4baf-6092-76ad-f22a">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium Tank Gun SR</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AP-SR Medium Tank Shells</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ fail 1</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="40"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Heavy Tank Gun" hidden="false" id="8d73-a10d-c989-fd19" collective="true">
+    <selectionEntry type="upgrade" import="true" name="AP Heavy Tank Shells" hidden="false" id="8d73-a10d-c989-fd19" collective="true">
       <profiles>
-        <profile name="Heavy Tank Gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="374e-ba75-7f55-bd2e">
+        <profile name="AP Heavy Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="374e-ba75-7f55-bd2e">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy Tank Gun</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AP Heavy Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d16</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
-            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="68"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Medium Tank Gun" hidden="false" id="c14c-eae7-ac2f-8e46" collective="true">
-      <profiles>
-        <profile name="Medium Tank Gun" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="52db-5984-df86-a357">
-          <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium Tank Gun</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
-            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/1 fail</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="46"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AP Medium Tank Shells" hidden="false" id="c14c-eae7-ac2f-8e46" collective="true">
+      <profiles>
+        <profile name="AP Medium Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="52db-5984-df86-a357">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AP Medium Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ 1 fail</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="34"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="SAW" hidden="false" id="5d57-ad49-0468-6dee">
@@ -1501,21 +1504,21 @@ Titan Large = Max 100%</description>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Heavy Tank Gun SR" hidden="false" id="d3f0-fba6-3ea2-0448" collective="true">
+    <selectionEntry type="upgrade" import="true" name="AP-SR Heavy Tank Shells" hidden="false" id="d3f0-fba6-3ea2-0448" collective="true">
       <profiles>
-        <profile name="Heavy Tank Gun SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1c10-e1e3-0270-c421">
+        <profile name="AP-SR Heavy Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1c10-e1e3-0270-c421">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy Tank Gun SR</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AP-SR Heavy Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d16</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ fail 1</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="60"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Melter Pack" hidden="false" id="16a7-01ae-9f63-b317" collective="true">
@@ -1566,8 +1569,11 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="44"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="43"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Heavy" id="f407-9570-a727-c379" hidden="false" type="rule" targetId="6424-c925-0d8b-9c95"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium Combat Rifle" hidden="false" id="e1cf-f242-2015-d0e7">
       <costs>
@@ -1588,7 +1594,7 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Pistol" hidden="false" id="efc5-6f06-774e-f837">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="11.5"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
       </costs>
       <profiles>
         <profile name="Heavy Pistol" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="d35a-93a0-810d-edf6">
@@ -1642,7 +1648,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="60"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Flamethrower" hidden="false" id="ef2b-1c88-2207-6b54" collective="true">
@@ -1659,7 +1665,7 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="138"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="69"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="5483-a04f-da73-9afa">
@@ -1678,6 +1684,60 @@ Titan Large = Max 100%</description>
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AT Rifle" hidden="false" id="767c-37d6-e8d6-5362">
+      <profiles>
+        <profile name="AT Rifle" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="e5b0-26f5-470b-6820">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Laser Cannon</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">12</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="11"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Heavy" id="10c4-65bb-cc1f-e016" hidden="false" type="rule" targetId="6424-c925-0d8b-9c95"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="HE Light Tank Shells" hidden="false" id="5843-9e72-53ec-e6d8" collective="true">
+      <profiles>
+        <profile name="HE Light Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="659e-c78c-957a-43fd">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">HE Light Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">6</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="HE Medium Tank Shells" hidden="false" id="9e61-25d1-978f-02bb" collective="true">
+      <profiles>
+        <profile name="HE Medium Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4178-9cf0-97e6-479c">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">HE Medium Tank Shells</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">6</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <publications>
