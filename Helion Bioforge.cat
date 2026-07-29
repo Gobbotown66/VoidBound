@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="039d-26a6-ca37-3091" name="Helion Bioforge" gameSystemId="sys-a7e7-068f-3c0a-d02b" gameSystemRevision="81625" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Hellion &quot;Mars&quot; HBT" hidden="false" id="8249-4b1b-b7f2-4369">
+    <selectionEntry type="unit" import="true" name="Mars HBT" hidden="false" id="8249-4b1b-b7f2-4369">
       <categoryLinks>
         <categoryLink name="Armor" hidden="false" id="8122-ce88-e561-8f10" targetId="6458-855c-e483-1dee" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Hellion &quot;Mars&quot; HBT" hidden="false" id="a11a-37d1-0abe-8805" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Mars HBT" hidden="false" id="a11a-37d1-0abe-8805" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Armor" hidden="false" id="61ab-9c03-5f84-e7d8" targetId="6458-855c-e483-1dee" primary="true"/>
           </categoryLinks>
@@ -15,14 +15,14 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9990-e0fc-e7db-e773" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Hellion &quot;Mars&quot; HBT" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="1c2c-8d60-0d07-dd58">
+            <profile name="Mars HBT" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="1c2c-8d60-0d07-dd58">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">10</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
-                <characteristic name="Attack" typeId="c3f3-bf77-cf8f-600e">4</characteristic>
+                <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">8</characteristic>
                 <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">11</characteristic>
-                <characteristic name="Combat" typeId="8b4d-3517-7e3f-fa5d">d10</characteristic>
-                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">8</characteristic>
+                <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">3</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">4</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -68,22 +68,6 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Abilities" id="e224-d9c1-8c15-1580" hidden="false" sortIndex="3">
-          <entryLinks>
-            <entryLink import="true" name="Transport 10" hidden="false" id="2b6d-5781-38e7-74b4" type="selectionEntry" targetId="8d87-c877-3956-91d7">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebf8-74ea-c758-70d2" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="395c-19b8-bbe3-72ed" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Combat ramps" hidden="false" id="9b6a-0642-eb16-f264" type="selectionEntry" targetId="d333-9611-9c59-7234">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="403d-0017-ab51-23ac" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7d0-92d6-648e-b2aa" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Apostate" hidden="false" id="0a53-e39f-9062-f94b">
@@ -111,7 +95,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="b8b6-6a6c-467a-fc8c" targetId="822e-7597-0e28-c347" primary="true"/>
+        <categoryLink name="CH" hidden="false" id="db76-be14-8c19-ea96" targetId="f42e-21bf-dc25-11ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Gear" id="8b7d-6910-1de5-5bb7" hidden="false" sortIndex="2">
@@ -158,10 +142,12 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83c5-05ac-1bc6-cf70" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Unit Shock" hidden="false" id="77c7-c240-0b33-3ab2" type="selectionEntry" targetId="00af-c28f-1872-63bc"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5891-1103-4d9b-8a4e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Voidsmith" hidden="false" id="4afd-8f8b-ea50-6c46">
       <selectionEntries>
@@ -188,7 +174,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="07a7-0489-2d46-47b0" targetId="822e-7597-0e28-c347" primary="true"/>
+        <categoryLink name="CH" hidden="false" id="2cc8-8518-eade-a00f" targetId="f42e-21bf-dc25-11ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Gear" id="c9a8-6e2c-17b6-4573" hidden="false" sortIndex="2">
@@ -224,6 +210,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f59d-ee31-6551-c587" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Champion" hidden="false" id="8a38-a2ad-32fc-54b1">
       <selectionEntries>
@@ -376,6 +365,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="847a-ddf2-dbbe-4ba0" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sorcerer" hidden="false" id="1cee-972d-b083-466d">
       <selectionEntries>
@@ -402,7 +394,7 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="7460-0a03-6f4c-576c" targetId="822e-7597-0e28-c347" primary="true"/>
+        <categoryLink name="CH" hidden="false" id="e328-2a60-a6d3-57ff" targetId="f42e-21bf-dc25-11ca" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Gear" id="0fec-818f-3800-8530" hidden="false" sortIndex="2">
@@ -436,6 +428,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0d07-58a5-6a17-0515" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mutant Prince" hidden="false" id="3ecb-0ede-dc01-083a">
       <selectionEntries>
@@ -506,6 +501,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="076b-75d8-254d-661e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mutated Assault Marines" hidden="false" id="5deb-fc3a-4f45-4848">
       <categoryLinks>
@@ -620,7 +618,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mutated Cult Marines" hidden="false" id="ea79-c6c1-a50c-3607">
       <categoryLinks>
-        <categoryLink name="Regulars" hidden="false" id="4094-2763-9d05-3d42" targetId="278c-3548-cc03-88b3" primary="true"/>
+        <categoryLink name="Veteran" hidden="false" id="e6ce-3493-7b1b-b3b8" targetId="79ee-e8a4-db5d-c136" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mutated Cult Marines" hidden="false" id="68d9-2c91-04ac-5938" sortIndex="1">
@@ -698,7 +696,18 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bc3-1365-de19-e6a8" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Unit Regenerate" hidden="false" id="3d96-8e9a-0bd4-a0f1" type="selectionEntry" targetId="2d17-698b-ed85-cb31"/>
+            <entryLink import="true" name="Unit Regenerate" hidden="false" id="3d96-8e9a-0bd4-a0f1" type="selectionEntry" targetId="2d17-698b-ed85-cb31">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aac-ff65-f3f0-20ee" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c48e-e858-fcd3-2370" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Unit Automaton" hidden="false" id="6cc0-1d9f-0c58-2a33" type="selectionEntry" targetId="3114-ce82-7145-db60">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e45-e151-ead1-9e84" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e724-3a6a-7663-c196" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6627-abe6-61a2-ee3f" includeChildSelections="false"/>
@@ -744,7 +753,7 @@
             <profile name="Mutated Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="ddb4-0ca4-0ef8-39d3" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
-                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
+                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
                 <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d8</characteristic>
                 <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">6</characteristic>
                 <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">1</characteristic>
@@ -778,7 +787,7 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3678-1254-a558-5f2a" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Missile Launcher" hidden="false" id="49a0-7c35-4edf-4aa2" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
+            <entryLink import="true" name="AT Missile Launcher" hidden="false" id="49a0-7c35-4edf-4aa2" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="204c-0699-d679-8386" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0c9-0e26-3ddc-aa1d" includeChildSelections="false"/>
@@ -824,7 +833,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Mutated Marines" hidden="false" id="490d-2805-21a2-9f19">
       <categoryLinks>
-        <categoryLink name="Regulars" hidden="false" id="1c3f-a99d-bcaa-2646" targetId="278c-3548-cc03-88b3" primary="true"/>
+        <categoryLink name="Veteran" hidden="false" id="1098-6a6f-498c-68f0" targetId="79ee-e8a4-db5d-c136" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Heavy Mutated Marines" hidden="false" id="c398-04e2-86a2-eb0c" sortIndex="1">
@@ -867,7 +876,7 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="94aa-424d-9f87-10e3" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Missile Launcher" hidden="false" id="73c1-c724-8aad-b410" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
+            <entryLink import="true" name="AT Missile Launcher" hidden="false" id="73c1-c724-8aad-b410" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c7ca-c83d-d547-fdcb" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09ac-cc77-fa74-66d4" includeChildSelections="false"/>
@@ -907,7 +916,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Wanting Conscripts" hidden="false" id="31d8-011f-caaa-9208">
       <categoryLinks>
-        <categoryLink name="Regulars" hidden="false" id="33d6-8db7-cfb8-7b43" targetId="278c-3548-cc03-88b3" primary="true"/>
+        <categoryLink name="Recon" hidden="false" id="1a98-4575-8cb6-f604" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Wanting" hidden="false" id="dbdc-ed2e-d601-9801" sortIndex="1">
@@ -972,7 +981,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Blessed Marines" hidden="false" id="920d-c71e-b3b5-4051">
       <categoryLinks>
-        <categoryLink name="Regulars" hidden="false" id="f1e3-a775-8fba-3ad8" targetId="278c-3548-cc03-88b3" primary="true"/>
+        <categoryLink name="Elites" hidden="false" id="55b7-7926-c0e6-09b5" targetId="fdff-8f03-1f49-cf15" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Blessed Marines" hidden="false" id="5f69-b4ca-c337-d411" sortIndex="1">
@@ -987,7 +996,7 @@
             <profile name="Blessed Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="8719-d40c-21eb-644b" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
-                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
+                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
                 <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d8</characteristic>
                 <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">6</characteristic>
                 <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">2</characteristic>
@@ -1021,31 +1030,13 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f3a0-56fe-da52-1ddb" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Missile Launcher" hidden="false" id="9a86-7e04-532f-86ff" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
+            <entryLink import="true" name="AT Missile Launcher" hidden="false" id="9a86-7e04-532f-86ff" type="selectionEntry" targetId="71a0-cb3f-2f98-0806" sortIndex="4">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ee01-27d3-35f0-6e6b" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a500-4b0d-17ff-53c2" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Add Ons" id="6410-2988-28a2-933c" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Grenades" hidden="false" id="3ce0-375c-087a-4150" type="selectionEntry" targetId="83e2-fa03-b24a-2991">
-                  <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ea50-3277-9de0-ef9a" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd4d-173a-f862-9ec6" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="AT grenades" hidden="false" id="251e-bf0d-0a00-87a9" type="selectionEntry" targetId="969b-b112-2971-c189">
-                  <constraints>
-                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="81f4-ecaa-eb4f-f258" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7d6-cda7-a5f8-2a5a" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrade Sgt." id="5fbd-8004-967a-19b8" hidden="false">
           <entryLinks>
@@ -1059,6 +1050,28 @@
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="640a-dbf9-43ee-57a9" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e29-39c2-1252-feca" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Add Ons" id="6410-2988-28a2-933c" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Grenades" hidden="false" id="3ce0-375c-087a-4150" type="selectionEntry" targetId="83e2-fa03-b24a-2991">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ea50-3277-9de0-ef9a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd4d-173a-f862-9ec6" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="AT grenades" hidden="false" id="251e-bf0d-0a00-87a9" type="selectionEntry" targetId="969b-b112-2971-c189">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="81f4-ecaa-eb4f-f258" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7d6-cda7-a5f8-2a5a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Elite" hidden="false" id="5ffb-ae19-e752-f854" type="selectionEntry" targetId="5330-0b9e-4a4a-220e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7965-ae49-a060-49dd" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8194-e21b-e2f4-6e71" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1099,18 +1112,9 @@
         <selectionEntryGroup name="Weapons" id="806e-c8d4-170d-8101" hidden="false" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Heavy Combat Weapon" hidden="false" id="d09b-01e1-40f9-109e" type="selectionEntry" targetId="db40-a303-01f5-67e6" sortIndex="1">
-              <costs>
-                <cost name="Points" typeId="2ffa-8172-fa57-100d" value="0"/>
-              </costs>
               <constraints>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="5fe8-8048-87f9-289e" includeChildSelections="false"/>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="89b3-41cf-1bce-96c0" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Light Machine Gun" hidden="false" id="ab4d-61c8-da69-9ff8" type="selectionEntry" targetId="a31d-cfdc-bd7b-174b" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24a5-102d-a267-c067" includeChildSelections="false"/>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="c019-c4f4-0158-e34e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Heavy Machine Gun" hidden="false" id="57d0-2fb3-bd23-c371" type="selectionEntry" targetId="0cb5-0b8c-961b-1b50" sortIndex="3">
@@ -1123,6 +1127,12 @@
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="422b-0f6d-6dde-81b4" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1e6-a9c8-92ce-e85b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Medium SAW" hidden="false" id="2006-e9d0-26bd-ece3" type="selectionEntry" targetId="5b2e-11fd-eadb-917e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cb1-9cef-24a8-a8e6" includeChildSelections="false"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="9cd2-308f-b585-3218" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1147,7 +1157,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Extreme Mutated Marines" hidden="false" id="ebbd-690e-1860-911c">
       <categoryLinks>
-        <categoryLink name="Regulars" hidden="false" id="71e7-99db-045d-16fd" targetId="278c-3548-cc03-88b3" primary="true"/>
+        <categoryLink name="Elites" hidden="false" id="a1fb-7338-c5d8-1b23" targetId="fdff-8f03-1f49-cf15" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Extreme Mutated Marines" hidden="false" id="51eb-2fec-2b3c-7fd3" sortIndex="1">
@@ -1186,11 +1196,16 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Abilities" id="fc0b-be3a-49d0-1efc" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Elite" hidden="false" id="b450-f3a2-be89-c3b5" type="selectionEntry" targetId="5330-0b9e-4a4a-220e"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mutated Mech" hidden="false" id="a31e-5743-6556-4364">
       <categoryLinks>
-        <categoryLink name="Armor" hidden="false" id="1963-4bd7-6689-9859" targetId="6458-855c-e483-1dee" primary="true"/>
+        <categoryLink name="Mech" hidden="false" id="00ce-1cf5-2539-efa3" targetId="f0ff-9879-e1aa-c7b4" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mutated Mech" hidden="false" id="9529-417a-727e-b91e" sortIndex="1">
@@ -1388,7 +1403,7 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7f32-0e5b-a8aa-ea51" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Missile Launcher" hidden="false" id="93f7-893b-42d4-b711" type="selectionEntry" targetId="71a0-cb3f-2f98-0806">
+            <entryLink import="true" name="AT Missile Launcher" hidden="false" id="93f7-893b-42d4-b711" type="selectionEntry" targetId="71a0-cb3f-2f98-0806">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d51b-8a01-1d83-a458" includeChildSelections="false"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d562-6d27-1323-d48f" includeChildSelections="false"/>
@@ -1846,7 +1861,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61c8-4bbd-4c18-9ccd" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Missile Launcher" hidden="false" id="3ea3-eaa9-7d94-d706" type="selectionEntry" targetId="71a0-cb3f-2f98-0806">
+            <entryLink import="true" name="AT Missile Launcher" hidden="false" id="3ea3-eaa9-7d94-d706" type="selectionEntry" targetId="71a0-cb3f-2f98-0806">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c7b8-f468-964d-dd2f" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b54-83c8-8ada-2231" includeChildSelections="false"/>
@@ -1879,6 +1894,71 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Medic" hidden="false" id="1866-c7bd-392b-9721">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Medic" hidden="false" id="0c67-5451-3883-884f" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b35-8adb-e1a8-dc81"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1d0-b21d-383f-d15a"/>
+          </constraints>
+          <profiles>
+            <profile name="Medic" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="5786-8e82-2666-edd9">
+              <characteristics>
+                <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+4</characteristic>
+                <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">6</characteristic>
+                <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d8</characteristic>
+                <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">7</characteristic>
+                <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">2</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="2ffa-8172-fa57-100d" value="58"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="CH" hidden="false" id="6dca-ecee-4853-3705" targetId="f42e-21bf-dc25-11ca" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gear" id="8b2b-5cc2-b8b2-37d9" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Medium Pistol" hidden="false" id="2f4e-f2a4-0333-eceb" type="selectionEntry" targetId="70a0-2f8b-53a6-c4d8" defaultAmount="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef80-87ce-99a2-3a69" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bffa-d120-707c-0a59" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Medium Combat Weapon" hidden="false" id="d4a0-abfa-b2c8-40db" type="selectionEntry" targetId="4467-a3ba-05a2-4b7c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26e3-3e8d-3c22-cc04" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="be98-a9a5-0f35-10b7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Combat Weapon" hidden="false" id="b45b-e702-bda3-060b" type="selectionEntry" targetId="db40-a303-01f5-67e6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="945c-0254-ec34-89f7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1682-12dc-fc14-76bf" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Abilities" id="d45c-d01a-f91a-e17c" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Medic" hidden="false" id="d0c5-7360-8425-a926" type="selectionEntry" targetId="ab1d-92fb-8ef3-0504">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e497-6210-1d2b-996a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="925d-03ff-d1b9-ea48" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e91d-8e78-724e-596d" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
 </catalogue>

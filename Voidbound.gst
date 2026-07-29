@@ -7,11 +7,11 @@
     <categoryEntry name="Recon" id="1cfd-fa61-b8d2-3b98" hidden="false"/>
     <categoryEntry name="Support" id="0de4-77a5-3176-c85f" hidden="false"/>
     <categoryEntry name="Elites" id="fdff-8f03-1f49-cf15" hidden="false"/>
-    <categoryEntry name="Special" id="79ee-e8a4-db5d-c136" hidden="false"/>
+    <categoryEntry name="Veteran" id="79ee-e8a4-db5d-c136" hidden="false"/>
     <categoryEntry name="Monster" id="fa30-5121-ff95-c6fc" hidden="false"/>
     <categoryEntry name="Armor" id="6458-855c-e483-1dee" hidden="false"/>
     <categoryEntry name="Behemoth" id="2b33-c289-86c2-e79e" hidden="false"/>
-    <categoryEntry name="Super Heavy" id="f0ff-9879-e1aa-c7b4" hidden="false"/>
+    <categoryEntry name="Mech" id="f0ff-9879-e1aa-c7b4" hidden="false"/>
     <categoryEntry name="Titan small" id="f820-a06a-1baa-10b6" hidden="false"/>
     <categoryEntry name="Transport" id="18e0-e2bd-b84d-3cbd" hidden="false"/>
     <categoryEntry name="Leviathan" id="cbfe-c85f-0f12-f64c" hidden="false"/>
@@ -19,54 +19,18 @@
     <categoryEntry name="Titan large" id="3df0-d98f-c740-6948" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="Frontline Force" id="8525-744f-b757-3974" hidden="false">
+    <forceEntry name="Combat Force" id="8525-744f-b757-3974" hidden="false">
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="01c8-1815-f05e-7e85" targetId="822e-7597-0e28-c347">
-          <constraints>
-            <constraint type="max" value="25" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="4af3-45c9-ca8e-4835" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="CH" hidden="false" id="894b-c059-4e05-767b" targetId="f42e-21bf-dc25-11ca">
-          <constraints>
-            <constraint type="max" value="15" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="e3e5-4e6c-dffc-1c1e" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Regulars" hidden="false" id="cf97-bd3e-2747-5bc8" targetId="278c-3548-cc03-88b3">
-          <constraints>
-            <constraint type="min" value="40" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="564b-999d-25ee-7695" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Recon" hidden="false" id="d27b-d4ab-2c62-6fe9" targetId="1cfd-fa61-b8d2-3b98">
-          <constraints>
-            <constraint type="max" value="30" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="0688-fc01-1d68-262c" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" hidden="false" id="6d87-b793-ca90-c6ae" targetId="0de4-77a5-3176-c85f">
-          <constraints>
-            <constraint type="max" value="30" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="3e03-ca2e-e655-6847" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Elites" hidden="false" id="7ae2-e40b-df83-bdd0" targetId="fdff-8f03-1f49-cf15">
-          <constraints>
-            <constraint type="max" value="20" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="6c03-481a-1dc5-3112" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Special" hidden="false" id="e6c2-c6bd-d57a-5b1e" targetId="79ee-e8a4-db5d-c136">
-          <constraints>
-            <constraint type="max" value="20" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="4683-82e6-ba17-e622" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink name="HQ" hidden="false" id="01c8-1815-f05e-7e85" targetId="822e-7597-0e28-c347"/>
+        <categoryLink name="CH" hidden="false" id="894b-c059-4e05-767b" targetId="f42e-21bf-dc25-11ca"/>
+        <categoryLink name="Regulars" hidden="false" id="cf97-bd3e-2747-5bc8" targetId="278c-3548-cc03-88b3"/>
+        <categoryLink name="Recon" hidden="false" id="d27b-d4ab-2c62-6fe9" targetId="1cfd-fa61-b8d2-3b98"/>
+        <categoryLink name="Support" hidden="false" id="6d87-b793-ca90-c6ae" targetId="0de4-77a5-3176-c85f"/>
+        <categoryLink name="Elites" hidden="false" id="7ae2-e40b-df83-bdd0" targetId="fdff-8f03-1f49-cf15"/>
+        <categoryLink name="Veteran" hidden="false" id="e6c2-c6bd-d57a-5b1e" targetId="79ee-e8a4-db5d-c136"/>
         <categoryLink name="Transport" hidden="false" id="4bfd-2fce-50d2-17c8" targetId="18e0-e2bd-b84d-3cbd"/>
-        <categoryLink name="Armor" hidden="false" id="e37b-4a36-e726-f19a" targetId="6458-855c-e483-1dee">
-          <constraints>
-            <constraint type="max" value="33" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="70bd-801c-4e3d-f581" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Super Heavy" hidden="false" id="30eb-690e-f69e-6106" targetId="f0ff-9879-e1aa-c7b4">
-          <constraints>
-            <constraint type="max" value="33" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="1dcb-2887-f02a-f289" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink name="Armor" hidden="false" id="e37b-4a36-e726-f19a" targetId="6458-855c-e483-1dee"/>
+        <categoryLink name="Mechs" hidden="false" id="30eb-690e-f69e-6106" targetId="f0ff-9879-e1aa-c7b4"/>
       </categoryLinks>
       <rules>
         <rule name="Constraints" id="9388-f2a2-e499-beeb" hidden="false">
@@ -79,224 +43,6 @@ Elite = Max 20%
 Special = Max 20%
 Armor = Max 33%
 Super Heavy = Max 33%</description>
-        </rule>
-      </rules>
-    </forceEntry>
-    <forceEntry name="Recon Force" id="4191-0fc2-fe7d-3f66" hidden="false">
-      <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="d670-14bc-35bf-2af0" targetId="822e-7597-0e28-c347">
-          <constraints>
-            <constraint type="max" value="25" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="2dff-0686-8b34-4068" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="CH" hidden="false" id="7ae5-b6b3-b5a2-8509" targetId="f42e-21bf-dc25-11ca">
-          <constraints>
-            <constraint type="max" value="15" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="7b55-b35c-6d7d-4da1" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Regulars" hidden="false" id="c1df-5e3c-bfda-dbbb" targetId="278c-3548-cc03-88b3">
-          <constraints>
-            <constraint type="max" value="25" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="91f1-51b8-42c2-e76b" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Recon" hidden="false" id="e865-6334-30db-5936" targetId="1cfd-fa61-b8d2-3b98">
-          <constraints>
-            <constraint type="min" value="50" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="3aff-8c46-b76b-8f80" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" hidden="false" id="a2d5-5074-2621-912d" targetId="0de4-77a5-3176-c85f">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="a930-ab8b-bb48-5a62" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Elites" hidden="false" id="3879-ecac-d6c9-75e2" targetId="fdff-8f03-1f49-cf15">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="bed4-8606-9461-040e" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Special" hidden="false" id="a455-37a7-445d-da5c" targetId="79ee-e8a4-db5d-c136">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="4dd1-0a18-eb29-e064" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Transport" hidden="false" id="875b-7217-8a71-9e5b" targetId="18e0-e2bd-b84d-3cbd"/>
-        <categoryLink name="Armor" hidden="false" id="f3c8-bdde-d4a2-c7ba" targetId="6458-855c-e483-1dee">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="b202-04ed-02d5-220b" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Super Heavy" hidden="false" id="e8f0-7b60-0120-ad50" targetId="f0ff-9879-e1aa-c7b4">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="62bf-581c-b2c3-69e8" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <rules>
-        <rule name="Constraints" id="27a7-6a2e-c66a-6a56" hidden="false">
-          <description>HQ = Max 25%
-CH = Max 15%
-Regulars = Max 33%
-Recon = Min 50%
-Support = Max 30%
-Elite = Max 20%
-Special = Max 20%
-Armor = Max 10%
-Super Heavy = Max 0%</description>
-        </rule>
-      </rules>
-    </forceEntry>
-    <forceEntry name="Siege Force" id="2a5c-e908-8104-4004" hidden="false">
-      <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="b85a-f359-4fa4-33cc" targetId="822e-7597-0e28-c347">
-          <constraints>
-            <constraint type="max" value="25" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="5877-17b2-7c14-a9d9" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="CH" hidden="false" id="7f0d-2c93-586a-1500" targetId="f42e-21bf-dc25-11ca">
-          <constraints>
-            <constraint type="max" value="15" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="06d5-aefb-25ab-0fb0" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Regulars" hidden="false" id="e330-5ef5-00f7-26f1" targetId="278c-3548-cc03-88b3">
-          <constraints>
-            <constraint type="min" value="40" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="f5ff-48fe-6519-8db4" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Recon" hidden="false" id="1cfd-5ba9-af66-fd5e" targetId="1cfd-fa61-b8d2-3b98">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="67a0-2ba4-2ffc-3689" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" hidden="false" id="7d03-82d9-534d-f87f" targetId="0de4-77a5-3176-c85f">
-          <constraints>
-            <constraint type="max" value="40" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="5755-d033-b572-2c05" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Elites" hidden="false" id="ff63-a665-7435-a5a5" targetId="fdff-8f03-1f49-cf15">
-          <constraints>
-            <constraint type="max" value="30" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="2a45-dde0-aade-f1a8" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Special" hidden="false" id="e9b7-52a2-cc07-9087" targetId="79ee-e8a4-db5d-c136">
-          <constraints>
-            <constraint type="max" value="20" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="b35b-1ca2-d511-b029" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Transport" hidden="false" id="781b-f672-5f79-1c7e" targetId="18e0-e2bd-b84d-3cbd"/>
-        <categoryLink name="Armor" hidden="false" id="127a-974c-b0be-ad74" targetId="6458-855c-e483-1dee">
-          <constraints>
-            <constraint type="max" value="50" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="4c8e-c949-f9b6-e464" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Super Heavy" hidden="false" id="2ec4-79cf-e1e6-f50f" targetId="f0ff-9879-e1aa-c7b4">
-          <constraints>
-            <constraint type="max" value="50" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="f118-efe6-de16-f1be" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Titan small" hidden="false" id="f77d-190b-98c0-8bad" targetId="f820-a06a-1baa-10b6">
-          <constraints>
-            <constraint type="max" value="33" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="49a5-0c1b-8247-22c7" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <rules>
-        <rule name="Constraints" id="447d-32ca-9f5a-8b25" hidden="false">
-          <description>HQ = Max 25%
-CH = Max 15%
-Regulars = Min 40%
-Recon = Max 0%
-Support = Max 40%
-Elite = Max 30%
-Special = Max 20%
-Armor = Max 50%
-Super Heavy = Max 50%
-Titan Small = Max 33%</description>
-        </rule>
-      </rules>
-    </forceEntry>
-    <forceEntry name="Titan Force" id="b223-a194-72e9-0145" hidden="false">
-      <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="caf8-bdf9-f6ca-aae3" targetId="822e-7597-0e28-c347">
-          <constraints>
-            <constraint type="max" value="25" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="8315-82f8-1b92-758c" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="CH" hidden="false" id="2558-dd00-b96c-6aff" targetId="f42e-21bf-dc25-11ca">
-          <constraints>
-            <constraint type="max" value="15" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="309f-a172-4c81-c929" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Elites" hidden="false" id="9d25-2d8e-f3f0-fe15" targetId="fdff-8f03-1f49-cf15">
-          <constraints>
-            <constraint type="max" value="20" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="2dd0-9f84-4ed5-61ef" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Super Heavy" hidden="false" id="7c2d-2afe-b618-ab7e" targetId="f0ff-9879-e1aa-c7b4">
-          <constraints>
-            <constraint type="max" value="50" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="488a-dcb4-2bb9-386c" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Titan small" hidden="false" id="87e0-140d-161a-5e02" targetId="f820-a06a-1baa-10b6">
-          <constraints>
-            <constraint type="max" value="100" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="c4aa-0f10-3e59-c693" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Titan medium" hidden="false" id="8480-f60d-4756-f1d8" targetId="79f1-1335-c31e-1309">
-          <constraints>
-            <constraint type="max" value="100" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="f129-cab2-c973-5958" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Titan large" hidden="false" id="46ba-fbc6-6340-0a8e" targetId="3df0-d98f-c740-6948">
-          <constraints>
-            <constraint type="max" value="100" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="f9af-4cc7-f163-7a24" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Regulars" hidden="false" id="e260-39e1-6a43-4497" targetId="278c-3548-cc03-88b3">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="d4a6-1ebc-e9cc-f9d2" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Transport" hidden="false" id="dc7f-4ac0-d7ae-4566" targetId="18e0-e2bd-b84d-3cbd"/>
-        <categoryLink name="Recon" hidden="false" id="0de5-7a50-7881-b198" targetId="1cfd-fa61-b8d2-3b98">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="92df-bc63-0fb9-967c" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Support" hidden="false" id="1c2c-1626-2579-359e" targetId="0de4-77a5-3176-c85f">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="a76e-9042-daf0-5868" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Special" hidden="false" id="a5c5-11a4-3641-9793" targetId="79ee-e8a4-db5d-c136">
-          <constraints>
-            <constraint type="max" value="20" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="13d6-9c9d-fb06-6ff4" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Armor" hidden="false" id="c273-bcf3-c0e2-1cb2" targetId="6458-855c-e483-1dee">
-          <constraints>
-            <constraint type="max" value="0" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="75b7-3675-9145-fdb9" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Leviathan" hidden="false" id="706a-17f6-7da1-0d7f" targetId="cbfe-c85f-0f12-f64c">
-          <constraints>
-            <constraint type="max" value="100" field="2ffa-8172-fa57-100d" scope="force" shared="true" id="5dff-67cc-292a-e161" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-      <rules>
-        <rule name="Constraints" id="29f6-e725-9f75-9a83" hidden="false">
-          <description>HQ = Max 25%
-CH = Max 15%
-Regulars = Min 0%
-Recon = Min 0%
-Support = Max 0%
-Elite = Max 20%
-Special = Max 0%
-Armor = Max 0%
-Super Heavy = Max 50%
-Titan Small = Max 100%
-Titan Medium = Max 100%
-Titan Large = Max 100%</description>
         </rule>
       </rules>
     </forceEntry>
@@ -459,7 +205,7 @@ Titan Large = Max 100%</description>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT, AP reroll/ 1 fail</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT, AP reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -505,7 +251,7 @@ Titan Large = Max 100%</description>
         <infoLink name="Pinning" id="5f11-e075-e4e0-5ce6" hidden="false" type="rule" targetId="41c3-a822-fb98-82ac"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="41"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="36"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Light Machine Gun" hidden="false" id="a31d-cfdc-bd7b-174b" collective="true">
@@ -864,7 +610,7 @@ Titan Large = Max 100%</description>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Infiltrate" hidden="false" id="cfb2-80fa-7012-63ad">
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="3"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="5"/>
       </costs>
       <infoLinks>
         <infoLink name="Infiltrate" id="1d86-b53b-1e18-c3b1" hidden="false" type="rule" targetId="7db3-f35c-9ae8-a2d7"/>
@@ -963,14 +709,6 @@ Titan Large = Max 100%</description>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="10"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Shock" hidden="false" id="12b5-93e5-ac1c-30b4">
-      <infoLinks>
-        <infoLink name="Shock" id="8603-0f53-fba6-92c2" hidden="false" type="rule" targetId="96d6-d060-2bac-e6d7"/>
-      </infoLinks>
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stealth" hidden="false" id="b976-dc0a-0e23-0223">
@@ -1222,14 +960,6 @@ Titan Large = Max 100%</description>
         <infoLink name="Fly" id="a770-8dda-3427-7fc9" hidden="false" type="rule" targetId="92ca-acc8-08bc-b6eb"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Unit Drop" hidden="false" id="9bcd-2fe1-5e68-e29f">
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="50"/>
-      </costs>
-      <infoLinks>
-        <infoLink name="Drop" id="8b85-6eae-24de-9980" hidden="false" type="rule" targetId="2d85-9c23-2b79-91dc"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Unit Jump Packs" hidden="false" id="0c8d-859f-668f-088e">
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="75"/>
@@ -1325,16 +1055,6 @@ Titan Large = Max 100%</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Unit Shock" hidden="false" id="00af-c28f-1872-63bc">
-      <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="50"/>
-      </costs>
-      <rules>
-        <rule name="Shock" id="e56e-e1a7-2bf4-9f2a" hidden="false">
-          <description>A model gives a unit it is with rerolls of &apos;1&apos; during combat.</description>
-        </rule>
-      </rules>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Unit Berserk" hidden="false" id="72d3-f8e4-b456-6fd8">
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="50"/>
@@ -1372,21 +1092,21 @@ Titan Large = Max 100%</description>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="71a0-cb3f-2f98-0806">
+    <selectionEntry type="upgrade" import="true" name="AT Missile Launcher" hidden="false" id="71a0-cb3f-2f98-0806">
       <profiles>
-        <profile name="AT Missile Launcher" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0f8a-c7e8-cf61-86ba">
+        <profile name="AT Missile AP" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0f8a-c7e8-cf61-86ba">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Missile Launcher</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Missile AP</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
-        <profile name="Frag Missile Launcher" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0523-5dd6-1d67-3d1a">
+        <profile name="Frag Missile HE" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="0523-5dd6-1d67-3d1a">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Missile Launcher</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Frag Missile HE</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">6</characteristic>
@@ -1407,10 +1127,10 @@ Titan Large = Max 100%</description>
         <profile name="AP-SR Medium Tank Shells" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="4baf-6092-76ad-f22a">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">AP-SR Medium Tank Shells</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ fail 1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -1427,7 +1147,7 @@ Titan Large = Max 100%</description>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d16</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/1 fail</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -1444,7 +1164,7 @@ Titan Large = Max 100%</description>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">60</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ 1 fail</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -1453,14 +1173,14 @@ Titan Large = Max 100%</description>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="34"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="SAW" hidden="false" id="5d57-ad49-0468-6dee">
+    <selectionEntry type="upgrade" import="true" name="Light SAW" hidden="false" id="5d57-ad49-0468-6dee">
       <costs>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="4"/>
       </costs>
       <profiles>
-        <profile name="SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8963-d1e1-475a-bfee">
+        <profile name="Light SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="8963-d1e1-475a-bfee">
           <characteristics>
-            <characteristic name="Name" typeId="e193-121b-b063-b07d">SAW</characteristic>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Light SAW</characteristic>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d6</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
@@ -1478,7 +1198,7 @@ Titan Large = Max 100%</description>
         <profile name="Heavy SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="1456-c828-838f-d85f">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Heavy SAW</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
@@ -1492,16 +1212,16 @@ Titan Large = Max 100%</description>
         <profile name="Light Tank Gun SR" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="100b-de61-bd6f-b15b">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Light Tank Gun SR</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d10</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">48&quot;</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="999"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="AP-SR Heavy Tank Shells" hidden="false" id="d3f0-fba6-3ea2-0448" collective="true">
@@ -1512,7 +1232,7 @@ Titan Large = Max 100%</description>
             <characteristic name="Type" typeId="4830-b87b-a314-429f">d16</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll/ fail 1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; AP reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>
@@ -1739,6 +1459,33 @@ Titan Large = Max 100%</description>
         <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Medium SAW" hidden="false" id="5b2e-11fd-eadb-917e">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="12"/>
+      </costs>
+      <profiles>
+        <profile name="Medium SAW" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="fb49-a2c7-270b-6237">
+          <characteristics>
+            <characteristic name="Name" typeId="e193-121b-b063-b07d">Medium SAW</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d8</characteristic>
+            <characteristic name="Range" typeId="73dc-4741-3b29-35c9">24&quot;</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7"/>
+            <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Unit Automaton" hidden="false" id="3114-ce82-7145-db60">
+      <costs>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="30"/>
+      </costs>
+      <rules>
+        <rule name="Automaton" id="aca6-353d-27ac-aee0" hidden="false">
+          <description>Lowers Discipline by 2 points.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
   </sharedSelectionEntries>
   <publications>
     <publication name="VoidBorn" id="132f-99fd-2075-518a" hidden="false" shortName="VB" publisher="VoidBorn" publicationDate="2025" publisherUrl="gobbotown.com"/>
@@ -1818,10 +1565,10 @@ Titan Large = Max 100%</description>
       <description>Unit is not penalized by terrain for move purposes excluding impassable</description>
     </rule>
     <rule name="Infiltrate" id="7db3-f35c-9ae8-a2d7" hidden="false">
-      <description>This unit can act in the Scout Phase.</description>
+      <description>This unit can be placed in the Scout Phase.</description>
     </rule>
     <rule name="Inspiring" id="db7b-ccc9-1339-8dad" hidden="false">
-      <description>This model gives units a +1 to morale rolls.</description>
+      <description>This model gives units a +1 to morale rolls. Inspiring does not stack with Leadership within the same model.</description>
     </rule>
     <rule name="Jump Packs" id="aed1-f29d-2d11-5374" hidden="false">
       <description>Jump Packs allow double movement and the ability to move over impassable terrain. Jump packs also allow Drop ability.</description>
