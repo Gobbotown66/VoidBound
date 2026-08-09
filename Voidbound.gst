@@ -30,7 +30,7 @@
         <categoryLink name="Veteran" hidden="false" id="e6c2-c6bd-d57a-5b1e" targetId="79ee-e8a4-db5d-c136"/>
         <categoryLink name="Transport" hidden="false" id="4bfd-2fce-50d2-17c8" targetId="18e0-e2bd-b84d-3cbd"/>
         <categoryLink name="Armor" hidden="false" id="e37b-4a36-e726-f19a" targetId="6458-855c-e483-1dee"/>
-        <categoryLink name="Mechs" hidden="false" id="30eb-690e-f69e-6106" targetId="f0ff-9879-e1aa-c7b4"/>
+        <categoryLink name="Mech" hidden="false" id="30eb-690e-f69e-6106" targetId="f0ff-9879-e1aa-c7b4"/>
       </categoryLinks>
       <rules>
         <rule name="Constraints" id="9388-f2a2-e499-beeb" hidden="false">
@@ -1246,7 +1246,7 @@ Super Heavy = Max 33%</description>
         <profile name="Melter Pack" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="a058-57c9-a452-cdff">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">Melter Pack</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d20</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">0&quot;</characteristic>
             <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
             <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
@@ -1255,7 +1255,7 @@ Super Heavy = Max 33%</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="29"/>
+        <cost name="Points" typeId="2ffa-8172-fa57-100d" value="70"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Medium Combat Weapon" hidden="false" id="4467-a3ba-05a2-4b7c">
@@ -1280,10 +1280,10 @@ Super Heavy = Max 33%</description>
         <profile name="AT Laser Cannon" typeId="d74d-1d26-82cc-8dfd" typeName="Weapons" hidden="false" id="9375-cacb-6d32-ff40">
           <characteristics>
             <characteristic name="Name" typeId="e193-121b-b063-b07d">AT Laser Cannon</characteristic>
-            <characteristic name="Type" typeId="4830-b87b-a314-429f">d12</characteristic>
+            <characteristic name="Type" typeId="4830-b87b-a314-429f">d14</characteristic>
             <characteristic name="Range" typeId="73dc-4741-3b29-35c9">36</characteristic>
-            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">2</characteristic>
-            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT</characteristic>
+            <characteristic name="Shots" typeId="4a0f-0c83-a436-7528">1</characteristic>
+            <characteristic name="Specials" typeId="ba95-8de2-cf66-27f7">AT; reroll misses</characteristic>
             <characteristic name="Facing" typeId="ae2a-e4bd-c064-fbc8"/>
           </characteristics>
         </profile>

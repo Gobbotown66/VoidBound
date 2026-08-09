@@ -35,12 +35,12 @@
                 <characteristic name="Fight" typeId="c3f3-bf77-cf8f-600e">d8</characteristic>
                 <characteristic name="Armor" typeId="18bc-b12b-a038-7e54">9</characteristic>
                 <characteristic name="Attacks" typeId="8b4d-3517-7e3f-fa5d">2</characteristic>
-                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">2</characteristic>
+                <characteristic name="Hits" typeId="b5c3-b7d0-754f-8516">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="2ffa-8172-fa57-100d" value="55"/>
+            <cost name="Points" typeId="2ffa-8172-fa57-100d" value="82"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -569,7 +569,7 @@
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="29"/>
           </costs>
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="35ee-89be-f3ee-1d3d"/>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="35ee-89be-f3ee-1d3d"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f1e9-eeee-eb1f-c32b"/>
           </constraints>
           <profiles>
@@ -630,6 +630,12 @@
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d5c0-25c4-0e66-9329" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95f7-fc54-08a8-4827" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="4f2a-a6ec-6a61-47da" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b5ae-25b4-5e77-8017" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6d7-835e-2eb1-46e8" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -720,6 +726,12 @@
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6062-c6a2-f7d1-7c07" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0af8-a054-8710-27f3" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="3f39-128d-6979-9bf2" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ea5d-bc7e-ea6c-f2f8" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a82-d457-b7c7-51bf" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -869,6 +881,12 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7629-5e81-18ba-b769" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="6f59-2c65-ba1d-9f14" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0bd5-2937-1c20-68d9" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebac-d6d5-9e09-f52f" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -885,7 +903,7 @@
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="29"/>
           </costs>
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="5726-f113-be7f-d559"/>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="5726-f113-be7f-d559"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="b7c7-7fef-37f8-7ce8"/>
           </constraints>
           <profiles>
@@ -952,6 +970,12 @@
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="68cf-4b92-533c-d30d" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6730-35d2-f70a-dcff" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="7216-ec60-8331-7407" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="54f4-f2a6-3288-48db" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e9f-b092-e8ee-183a" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -1300,8 +1324,8 @@
             <categoryLink name="Recon" hidden="false" id="b30d-4074-c265-2a40" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
           </categoryLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4981-653d-13df-6d48" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b5a8-3d3e-e42d-b147" includeChildSelections="false"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="4981-653d-13df-6d48" includeChildSelections="false"/>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="b5a8-3d3e-e42d-b147" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Explorators" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="46e2-3b3a-7a25-221c">
@@ -1331,6 +1355,12 @@
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4790-de24-bef9-7d8c" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4fb-b908-847a-c9d6" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melter Pack" hidden="false" id="4468-6d16-b838-64ca" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="55d8-6e8a-91ac-a66a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43ae-2ed4-aa78-fbad" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1659,7 +1689,7 @@
             <categoryLink name="Recon" hidden="false" id="9a0d-fd8e-ebaa-adb2" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
           </categoryLinks>
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="f1f9-fe40-7fbf-9af9" includeChildSelections="false"/>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="f1f9-fe40-7fbf-9af9" includeChildSelections="false"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="36c9-32a7-1b93-50b7" includeChildSelections="false"/>
           </constraints>
           <profiles>
@@ -1742,6 +1772,12 @@
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="AT grenades" hidden="false" id="671a-86f1-242a-f307" type="selectionEntry" targetId="969b-b112-2971-c189"/>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="b8b5-666b-15bc-16a9" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="63af-2465-310e-fdf0" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bfb-84ee-09f2-73f5" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -1824,6 +1860,12 @@
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5caf-2fde-4871-778a" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6d0-7ad8-71ba-c2c4" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="9902-d7d9-e976-c92b" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2bcb-9b69-08a8-2098" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="578c-3ba2-afa5-1a1b" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -1963,6 +2005,12 @@
                   <constraints>
                     <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa34-e36c-385b-aa0e" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e364-8241-6c73-944f" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="b9b0-28c6-3b9c-74df" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="991b-0046-cb1a-c250" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9203-bb38-64fe-6d22" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -2250,7 +2298,7 @@
             <categoryLink name="Recon" hidden="false" id="2655-451e-fbc1-7d65" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
           </categoryLinks>
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="0d3a-54a0-6b1a-1cdc" includeChildSelections="false"/>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="0d3a-54a0-6b1a-1cdc" includeChildSelections="false"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f70b-3fbf-56d3-5eab" includeChildSelections="false"/>
           </constraints>
           <profiles>
@@ -2334,6 +2382,12 @@
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="AT grenades" hidden="false" id="1e42-b3c9-06d8-50ae" type="selectionEntry" targetId="969b-b112-2971-c189"/>
+                <entryLink import="true" name="Melter Pack" hidden="false" id="03fa-3b62-d758-702f" type="selectionEntry" targetId="16a7-01ae-9f63-b317">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8672-b36e-e341-0182" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9456-67c5-78c6-c8de" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
