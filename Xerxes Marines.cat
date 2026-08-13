@@ -665,7 +665,7 @@
         <categoryLink name="Veteran" hidden="false" id="e858-5d1e-96f1-6a03" targetId="79ee-e8a4-db5d-c136" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Assault Zelotes" hidden="false" id="8421-672e-993c-ca02" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Assault Zealots" hidden="false" id="8421-672e-993c-ca02" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="34"/>
           </costs>
@@ -674,7 +674,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d1b0-3014-3875-ab1e"/>
           </constraints>
           <profiles>
-            <profile name="Assault Zelotes" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="5dfe-325e-085f-96bd" publicationId="132f-99fd-2075-518a">
+            <profile name="Assault Zealots" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="5dfe-325e-085f-96bd" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+4</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">5</characteristic>
@@ -765,10 +765,6 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="54ce-d49e-84e6-520b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62d4-b635-421e-55f9" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Masked" hidden="false" id="58c4-053a-8cf7-3af0">
       <categoryLinks>
@@ -2873,12 +2869,12 @@
             <entryLink import="true" name="Power Claw" hidden="false" id="bb92-ad84-2b32-430a" type="selectionEntry" targetId="37f1-22fd-fc1b-528e">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a464-6fb7-a738-5816" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1900-fee3-9d01-405e" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1900-fee3-9d01-405e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Heavy Flamethrower" hidden="false" id="7d83-41c3-e490-a740" type="selectionEntry" targetId="ef2b-1c88-2207-6b54">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ac1-3b63-4dce-29ae" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9ac1-3b63-4dce-29ae" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd37-acb6-d03b-3431" includeChildSelections="false"/>
               </constraints>
             </entryLink>

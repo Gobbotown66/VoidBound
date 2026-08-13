@@ -505,12 +505,12 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="076b-75d8-254d-661e" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mutated Assault Marines" hidden="false" id="5deb-fc3a-4f45-4848">
+    <selectionEntry type="unit" import="true" name="Muton Assault Marines" hidden="false" id="5deb-fc3a-4f45-4848">
       <categoryLinks>
         <categoryLink name="Regulars" hidden="false" id="dc24-e2d3-852a-d161" targetId="278c-3548-cc03-88b3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mutated Assault Marines" hidden="false" id="27e6-4320-d582-e9c6" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Muton Assault Marines" hidden="false" id="27e6-4320-d582-e9c6" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
           </costs>
@@ -519,7 +519,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="12b3-51b0-fa20-8a89"/>
           </constraints>
           <profiles>
-            <profile name="Mutated Assault Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="fbf7-8da2-8d8b-10c2" publicationId="132f-99fd-2075-518a">
+            <profile name="Muton Assault Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="fbf7-8da2-8d8b-10c2" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -560,7 +560,7 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="64f5-f0c3-6eeb-bd7c"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Heavy Combat Rifle" hidden="false" id="f5f8-e054-091a-f6fc" type="selectionEntry" targetId="b6a4-fe6d-e332-ca83">
+            <entryLink import="true" name="Medium Combat Rifle" hidden="false" id="f5f8-e054-091a-f6fc" type="selectionEntry" targetId="e1cf-f242-2015-d0e7">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="485a-d55e-ad6d-df31" includeChildSelections="false"/>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="0822-679c-e8aa-99ae"/>
@@ -622,12 +622,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mutated Cult Marines" hidden="false" id="ea79-c6c1-a50c-3607">
+    <selectionEntry type="unit" import="true" name="Muton Cult Marines" hidden="false" id="ea79-c6c1-a50c-3607">
       <categoryLinks>
         <categoryLink name="Veteran" hidden="false" id="e6ce-3493-7b1b-b3b8" targetId="79ee-e8a4-db5d-c136" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mutated Cult Marines" hidden="false" id="68d9-2c91-04ac-5938" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Muton Cult Marines" hidden="false" id="68d9-2c91-04ac-5938" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
           </costs>
@@ -636,7 +636,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="9f6f-5241-dd6c-0869"/>
           </constraints>
           <profiles>
-            <profile name="Mutated Cult Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="5553-5d6d-0a96-546f" publicationId="132f-99fd-2075-518a">
+            <profile name="Muton Cult Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="5553-5d6d-0a96-546f" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -716,14 +716,14 @@
             </entryLink>
             <entryLink import="true" name="Unit Automaton" hidden="false" id="6cc0-1d9f-0c58-2a33" type="selectionEntry" targetId="3114-ce82-7145-db60">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e45-e151-ead1-9e84" includeChildSelections="false"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1e45-e151-ead1-9e84" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e724-3a6a-7663-c196" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6627-abe6-61a2-ee3f" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d25c-46e5-c5ea-2186" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3760-128e-5614-cd3d" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrade Sgt." id="c2c8-d73d-2ff0-bee6" hidden="false">
@@ -748,12 +748,12 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a10e-01b2-1d29-ef79" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mutated Marines" hidden="false" id="7adc-6f85-e0cb-71fd">
+    <selectionEntry type="unit" import="true" name="Muton Marines" hidden="false" id="7adc-6f85-e0cb-71fd">
       <categoryLinks>
         <categoryLink name="Regulars" hidden="false" id="f6ea-c982-0de5-f9b8" targetId="278c-3548-cc03-88b3" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mutated Marines" hidden="false" id="2f7e-cc2b-6ac2-1dff" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Muton Marines" hidden="false" id="2f7e-cc2b-6ac2-1dff" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="24"/>
           </costs>
@@ -762,7 +762,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="799d-3940-044b-1b14"/>
           </constraints>
           <profiles>
-            <profile name="Mutated Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="ddb4-0ca4-0ef8-39d3" publicationId="132f-99fd-2075-518a">
+            <profile name="Muton Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="ddb4-0ca4-0ef8-39d3" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -849,12 +849,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Heavy Mutated Marines" hidden="false" id="490d-2805-21a2-9f19">
+    <selectionEntry type="unit" import="true" name="Heavy Muton Marines" hidden="false" id="490d-2805-21a2-9f19">
       <categoryLinks>
         <categoryLink name="Veteran" hidden="false" id="1098-6a6f-498c-68f0" targetId="79ee-e8a4-db5d-c136" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Heavy Mutated Marines" hidden="false" id="c398-04e2-86a2-eb0c" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Heavy Muton Marines" hidden="false" id="c398-04e2-86a2-eb0c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="29"/>
           </costs>
@@ -863,7 +863,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="7e19-1465-af31-6e4d"/>
           </constraints>
           <profiles>
-            <profile name="Heavy Mutated Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="239a-3220-056a-1e46" publicationId="132f-99fd-2075-518a">
+            <profile name="Heavy Muton Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="239a-3220-056a-1e46" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -1236,7 +1236,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapons" id="4169-de88-98ff-c250" hidden="false" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Medium Combat Weapon" hidden="false" id="e8af-9040-12c9-e1e2" type="selectionEntry" targetId="4467-a3ba-05a2-4b7c" sortIndex="3">
+            <entryLink import="true" name="Heavy Combat Weapon" hidden="false" id="e8af-9040-12c9-e1e2" type="selectionEntry" targetId="db40-a303-01f5-67e6" sortIndex="3">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="29b5-43ed-4051-b83c" includeChildSelections="false"/>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="95df-3b05-f67b-d3b7" includeChildSelections="false"/>
@@ -1251,12 +1251,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mutated Mech" hidden="false" id="a31e-5743-6556-4364">
+    <selectionEntry type="unit" import="true" name="Muton Mech" hidden="false" id="a31e-5743-6556-4364">
       <categoryLinks>
         <categoryLink name="Mech" hidden="false" id="00ce-1cf5-2539-efa3" targetId="f0ff-9879-e1aa-c7b4" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mutated Mech" hidden="false" id="9529-417a-727e-b91e" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Muton Mech" hidden="false" id="9529-417a-727e-b91e" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Armor" hidden="false" id="36c8-2b02-45ba-7aa4" targetId="6458-855c-e483-1dee" primary="true"/>
           </categoryLinks>
@@ -1265,7 +1265,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da75-0c6a-fbc8-940c" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Mutated Mech" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="54dc-691c-9e7e-095e">
+            <profile name="Muton Mech" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="54dc-691c-9e7e-095e">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">8&quot;</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -1331,12 +1331,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mutant Marine Bikers" hidden="false" id="a720-789e-39c5-3d2c">
+    <selectionEntry type="unit" import="true" name="Muton Marine Bikers" hidden="false" id="a720-789e-39c5-3d2c">
       <categoryLinks>
         <categoryLink name="Recon" hidden="false" id="c500-907f-e401-0e9c" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mutant Marine Bikers" hidden="false" id="a882-4d77-b131-f889" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Muton Marine Bikers" hidden="false" id="a882-4d77-b131-f889" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Recon" hidden="false" id="ab47-b0e9-e383-6b67" targetId="1cfd-fa61-b8d2-3b98" primary="true"/>
           </categoryLinks>
@@ -1345,7 +1345,7 @@
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="59ae-1938-9a25-85c7" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Mutant Marine Bikers" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="b042-76b0-dc94-088e">
+            <profile name="Muton Marine Bikers" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="b042-76b0-dc94-088e">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">16&quot;+4</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -1418,12 +1418,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Heavy Support Gunners" hidden="false" id="01b6-37ec-3a14-bc63">
+    <selectionEntry type="unit" import="true" name="Support Muton Gunners" hidden="false" id="01b6-37ec-3a14-bc63">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="ba1e-6188-ffb7-5df3" targetId="0de4-77a5-3176-c85f" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Heavy Support Gunners" hidden="false" id="078e-786b-ac14-72a4" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Support Muton Gunners" hidden="false" id="078e-786b-ac14-72a4" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="34"/>
           </costs>
@@ -1432,7 +1432,7 @@
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="4c6d-2f31-49a9-cec1"/>
           </constraints>
           <profiles>
-            <profile name="Heavy Support Gunners" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="61e2-365a-1da6-0c29" publicationId="132f-99fd-2075-518a">
+            <profile name="Support Muton Gunners" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="61e2-365a-1da6-0c29" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -1519,12 +1519,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Extreme Mutated Marine Support" hidden="false" id="44fa-fba6-5b61-8b6c">
+    <selectionEntry type="unit" import="true" name="Extreme Muton Marine Support" hidden="false" id="44fa-fba6-5b61-8b6c">
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="49af-c869-df81-9e63" targetId="0de4-77a5-3176-c85f" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Extreme Mutated Marines" hidden="false" id="3c1e-f13b-48a6-ad7c" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Extreme Muton Marines" hidden="false" id="3c1e-f13b-48a6-ad7c" sortIndex="1">
           <costs>
             <cost name="Points" typeId="2ffa-8172-fa57-100d" value="73"/>
           </costs>
@@ -1533,7 +1533,7 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fac6-67ac-efa0-dbcd"/>
           </constraints>
           <profiles>
-            <profile name="Extreme Mutated Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="39ec-7e1c-33db-0e1c" publicationId="132f-99fd-2075-518a">
+            <profile name="Extreme Muton Marines" typeId="b592-43b6-596b-e710" typeName="Profiles" hidden="false" id="39ec-7e1c-33db-0e1c" publicationId="132f-99fd-2075-518a">
               <characteristics>
                 <characteristic name="Move" typeId="ef2b-bdf6-5658-2e7a">6&quot;+3</characteristic>
                 <characteristic name="Discipline" typeId="968a-1ec5-b108-53ee">7</characteristic>
@@ -1922,20 +1922,6 @@
               </constraints>
             </entryLink>
           </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Smoke Launchers" hidden="false" id="ec41-5944-a73c-2249">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b0ae-835a-ec9e-3ddb"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b828-cde0-ab01-d596"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Smoke Cannisters" id="75fc-6b8a-2e87-60b8" hidden="false" type="rule" targetId="edd1-1d36-8d0b-8acf"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="2ffa-8172-fa57-100d" value="10"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Abilities" id="6baa-a3ef-dad0-f0b1" hidden="false" sortIndex="3">
           <entryLinks>
